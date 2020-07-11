@@ -10,13 +10,12 @@
 <!Doctype html>
 <html>
 <head>
-  <title>实验一  简单静态网页设计</title>
+  <title>sign in</title>
   <style type="text/css">
     body{
       margin:0 auto;
       background-color:#FFF;
       font-size:12px;
-
     }
     .top,.bottom,.center {
       height: auto;
@@ -28,7 +27,6 @@
       float:right;
     }
     .left{
-
       width: 35px;
       height: 300px;
       float:left;
@@ -62,13 +60,13 @@
   <div id="left">
     <img src="images/reg.gif"> <strong>注册帮助</strong>
     <ul>
-      <li>会员名：为会员登录网站的通行证，长度控制在3-20个字符之内。</li>
+      <li>用户名：为用户登录网站的通行证，长度控制在3-20个字符之内。</li>
       <br/>
       <li>密码：请设定在6-20位之间。</li>
       <br/>
       <li>确认密码：确认密码必须与密码一致。</li>
       <br/>
-      <li>Email：请填写有效的Email地址，以便于与您联系。</li>
+      <li>电话：密码遗忘时，便于找到密码。</li>
     </ul>
   </div>
 
@@ -104,7 +102,7 @@
           </td>
         </tr>
         <tr>
-          <td>E-mail：</td>
+          <td>电话：</td>
           <td>
             <input type="email" name="email">
 
@@ -116,7 +114,6 @@
           <td><input type="reset" name="reset" value="重置" />
           </td>
         </tr>
-
       </table>
     </form>
   </div>
@@ -125,14 +122,12 @@
       <td valign="top"></td>
     </tr>
   </table>
-
 </div>
 <img class="bottom" src="images/03.jpg">
 </body>
 </html>
 <script language="javaScript">
     function check(){
-
         if(document.form1.username.value.length<3||document.form1.username.value.length>20){
             alert("请输入符合条件的用户名");
             return false;
@@ -152,13 +147,11 @@
             alert("两次密码不相同");
             return false;
         }
-        if(document.form1.email.value.indexOf("@")=-1||document.form1.email.value.length=0){
-            alert("请输入正确格式的邮箱！");
+        if(document.form1.phone number.value.length=11){
+            alert("请输入正确的电话！");
             return false;
         }
         return true;
     }
-
 </script>
-
 </html>
