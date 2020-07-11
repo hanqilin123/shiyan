@@ -145,7 +145,7 @@
         var cpd= document.form1.cpassword.value;
 
         if(document.form1.cpassword.value.length<6||document.form1.cpassword.value.length>20){
-            alert("请再次输入密码！");
+            alert("请再次输入密码  ！");
             return false;
         }
         if(pd !== cpd){
