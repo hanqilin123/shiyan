@@ -102,8 +102,8 @@
           </td>
         </tr>
         <tr>
-          <td><input type="submit" name="submit" value="提交" >
-          </td>
+          <td>
+          <button><a href="http://localhost:8086/login.jsp">提交</a></button></td>
           <td><input type="reset" name="reset" value="重置" />
           </td>
         </tr>
