@@ -16,7 +16,7 @@
     账户：<input type="text" name="username"/><br>
     密码：<input type="password" name="password" /><br>
     <button><a href="http://localhost:8086">注册</a></button>
-    <button><a href="http://localhost:8086">登录</a></button>
+    <button><a href="http://localhost:8086/LOL.jsp">登录</a></button>
 
 </form>
 </body>
