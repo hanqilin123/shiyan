@@ -49,16 +49,10 @@
       border-left-style: solid;
       border-width: 2px;
     }
-
   </style>
 <body>
-<img class="top" src="images/01.gif" style="height: 180px;">
-<h1 style="margin: -5px;"></h1>
-<div class="center">
-  <img src="images/02.gif" class="left">
-  <img src="images/04.gif" class="right">
-  <div id="left">
-    <img src="images/reg.gif"> <strong>注册帮助</strong>
+
+   <strong>注册帮助</strong>
     <ul>
       <li>用户名：为用户登录网站的通行证，长度控制在3-20个字符之内。</li>
       <br/>
@@ -104,8 +98,7 @@
         <tr>
           <td>电话：</td>
           <td>
-            <input type="email" name="email">
-
+            <input type="number" name="number">
           </td>
         </tr>
         <tr>
@@ -123,7 +116,6 @@
     </tr>
   </table>
 </div>
-<img class="bottom" src="images/03.jpg">
 </body>
 </html>
 <script language="javaScript">
@@ -154,4 +146,5 @@
         return true;
     }
 </script>
+
 </html>
